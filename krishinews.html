@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi News</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- navbar section -->
+    <div class="bg-gray-100">
+        <header class="bg-sky-500 text-white border-b border-white/30 px-20 relative z-50">
+    
+            <!-- GRID NAVBAR -->
+            <div class="grid grid-cols-[auto_1fr] grid-rows-[auto_auto] items-center">
+    
+                <!-- COLUMN 1: LOGO (spans both rows) -->
+                <div class="row-span-2 flex items-center px-10">
+                    <img src="image/project logo.png" alt="MandiSystem Logo" class="h-20 w-auto scale-150 origin-left" />
+                </div>
+    
+                <!-- COLUMN 2 ROW 1: TITLE + LANGUAGE -->
+                <div class="flex items-center justify-between py-2 border-b border-white/40">
+                    <div class="leading-tight">
+                        <h1 class="text-4xl font-bold">MandiSystem</h1>
+                        <p class="text-xs opacity-90">Local Mandi Price System</p>
+                    </div>
+    
+                    <select class="bg-white text-black text-sm px-3 py-1 rounded-md focus:outline-none">
+                        <option>English</option>
+                        <option>हिंदी</option>
+                    </select>
+                </div>
+    
+                <!-- COLUMN 2 ROW 2: MENU -->
+                <nav class="flex gap-8 py-2 text-lg font-semibold">
+                    <a href="index.html" class="hover:underline">Home</a>
+                    <a href="mandiprices.html" class="hover:underline">Mandi Prices</a>
+                    <a href="weather.html" class="hover:underline">Weather</a>
+                    <a href="krishinews.html" class="hover:underline">Krishi Duniya</a>
+                    <a href="videos.html" class="hover:underline">Videos</a>
+                    <a href="farmer.html" class="hover:underline">Farmer</a>
+                    <a href="wholesaler.html" class="hover:underline">Wholesaler</a>
+                    <a href="govtpolicy.html" class="hover:underline">Govt. Policy</a>
+                    <a href="krishiwebstory.html" class="hover:underline">Krishi Web Story</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    
+    <!-- krishi news section -->
+    <div class="px-20 mt-8">
+    
+        <!-- Section Title -->
+        <div class="flex items-center mb-5">
+            <div class="bg-green-600 h-1 flex-1 rounded-full"></div>
+    
+            <div class="bg-green-600 px-6 py-2 rounded-full">
+                <h2 class="text-xl font-semibold text-white whitespace-nowrap">
+                    Latest Krishi News
+                </h2>
+            </div>
+    
+            <div class="bg-green-600 h-1 flex-1 rounded-full"></div>
+        </div>
+    
+        <!-- News Grid -->
+        <div id="krishiNewsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        </div>
+    
+    </div>
+
+    <!-- Pagination -->
+    <div class="flex justify-center mt-10">
+        <nav class="flex items-center border border-gray-300 rounded-md overflow-hidden">
+    
+            <!-- Prev -->
+            <a href="#" class="px-4 py-2 text-gray-500 hover:bg-gray-100">
+                ‹
+            </a>
+    
+            <!-- Page numbers -->
+            <a href="#" class="px-4 py-2 bg-blue-600 text-white font-semibold">
+                1
+            </a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">2</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">3</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">4</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">5</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">6</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">7</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">8</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">9</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">10</a>
+    
+            <!-- Ellipsis -->
+            <span class="px-4 py-2 text-gray-400">…</span>
+    
+            <!-- Last pages -->
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">36</a>
+            <a href="#" class="px-4 py-2 text-blue-600 hover:bg-blue-50">37</a>
+    
+            <!-- Next -->
+            <a href="#" class="px-4 py-2 text-gray-500 hover:bg-gray-100">
+                ›
+            </a>
+    
+        </nav>
+    </div>
+
+    <!-- footer section -->
+    <footer class="bg-gray-100 mt-5 border-t">
+  
+    <div class="px-20 py-12">
+  
+      <!-- TOP FOOTER GRID -->
+      <div class="grid grid-cols-4 gap-10">
+  
+        <!-- COLUMN 1: ABOUT -->
+        <div>
+          <!-- LOGO (you add image) -->
+          <div class="mb-4">
+            <!-- <img src="logo.png" class="h-8" /> -->
+            <h3 class="text-xl font-bold text-emerald-600">MandiSystem</h3>
+            <p class="text-xs text-gray-500">A division of Emperor pvt ltd</p>
+          </div>
+  
+          <p class="text-sm text-gray-700 leading-relaxed mb-6">
+            MandiSystem is a data led Agritech platform owned by Emperor pvt ltd.
+            Stay updated on the latest advancements in technology and innovation
+            shaping the farming and cultivation sector. Learn how modern
+            agriculture is transforming the industry. MandiSystem helps farmers,
+            Wholesaler, and Retailers to stay interconnected for better business
+            outcomes.
+          </p>
+  
+          <button class="bg-emerald-600 text-white px-4 py-2 rounded-md text-sm font-semibold">
+            Get MandiSystem App
+          </button>
+        </div>
+  
+        <!-- COLUMN 2: QUICK LINKS -->
+        <div>
+          <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+          <div class="w-12 h-0.5 bg-emerald-500 mb-4"></div>
+  
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li>Mandi Prices</li>
+            <li>Weather</li>
+            <li>Krishi Duniya</li>
+            <li>Videos</li>
+            <li>Farmer</li>
+            <li>Wholesaler</li>
+          </ul>
+        </div>
+  
+        <!-- COLUMN 3: USEFUL LINKS -->
+        <div>
+          <h4 class="text-lg font-semibold mb-3">Useful Links</h4>
+          <div class="w-12 h-0.5 bg-emerald-500 mb-4"></div>
+  
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Contact Us</li>
+            <li>Blog</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+  
+        <!-- COLUMN 4: GET IN TOUCH -->
+        <div>
+          <h4 class="text-lg font-semibold mb-3">Get In Touch</h4>
+          <div class="w-12 h-0.5 bg-emerald-500 mb-4"></div>
+  
+          <p class="text-sm text-gray-700 mb-2">
+            <strong>Address:</strong> E-1/124, Emperor - 462016
+          </p>
+          <p class="text-sm text-gray-700 mb-2">
+            <strong>Phone:</strong> +91-98938160
+          </p>
+          <p class="text-sm text-gray-700 mb-6">
+            <strong>Email:</strong> ravikumar91622436@gmail.com
+          </p>
+  
+          <!-- SOCIAL ICONS (you add icons/images) -->
+          <div class="flex gap-3">
+            <div class="w-9 h-9 bg-gray-300 rounded"></div>
+            <div class="w-9 h-9 bg-gray-300 rounded"></div>
+            <div class="w-9 h-9 bg-gray-300 rounded"></div>
+            <div class="w-9 h-9 bg-gray-300 rounded"></div>
+            <div class="w-9 h-9 bg-gray-300 rounded"></div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- BOTTOM COPYRIGHT -->
+      <div class="mt-12 border-t pt-4 text-center text-sm text-gray-600 bg-transparent">
+        Copyright © MandiSystem. All Rights Reserved
+      </div>
+    </div>
+  
+    <!-- GRASS IMAGE AREA (you add image) -->
+    <div class="h-20">
+      <img src="image/footer.png" class="w-full h-full object-cover" />
+    </div>
+    </footer>
+
+    <script>
+    fetch("krishinews.json")
+        .then(res => res.json())
+        .then(data => {
+            const container = document.getElementById("krishiNewsContainer");
+
+            data.forEach(news => {
+                const card = document.createElement("div");
+                card.className =
+                    "bg-emerald-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition";
+
+                card.innerHTML = `
+                    <!-- Image (clickable) -->
+                    <div class="h-48 bg-gray-300">
+                        <a href="news-detail.html?id=${news.id}">
+                            <img src="${news.image}"
+                                 class="w-full h-full object-cover" />
+                        </a>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="p-4">
+                        <a href="news-detail.html?id=${news.id}">
+                            <h3 class="font-semibold text-lg leading-snug mb-3 hover:underline">
+                                ${news.title}
+                            </h3>
+                        </a>
+
+                        <p class="text-sm text-gray-600">
+                            Posted: ${news.date}
+                        </p>
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+        });
+    </script>
+
+</body>
+</html>

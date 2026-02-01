@@ -1,0 +1,27 @@
+{
+  "Bihar": {
+    "Nalanda": {
+      "Bihar Sharif": {
+        "date": "28-01-2026",
+        "crops": [
+          {
+            "name": "Paddy",
+            "yesterday": { "min": 1950, "max": 2100 },
+            "today": { "min": 2000, "max": 2150 }
+          },
+          {
+            "name": "Wheat",
+            "yesterday": { "min": 2200, "max": 2350 },
+            "today": { "min": 2250, "max": 2400 }
+          },
+          {
+            "name": "Mustard",
+            "yesterday": { "min": 4800, "max": 5200 },
+            "today": { "min": 4900, "max": 5300 }
+          }
+        ]
+      }
+    }
+  }
+}
+

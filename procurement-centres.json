@@ -1,0 +1,85 @@
+{
+  "centres": [
+    {
+      "state": "Bihar",
+      "district": "Patna",
+      "crop": "Paddy",
+      "agency": "BSFC",
+      "centre_name": "Patna Sadar Procurement Centre",
+      "address": "Anisabad Grain Market, Patna, Bihar",
+      "map_query": "Anisabad Grain Market Patna"
+    },
+    {
+      "state": "Bihar",
+      "district": "Nalanda",
+      "crop": "Paddy",
+      "agency": "BSFC",
+      "centre_name": "Bihar Sharif Procurement Centre",
+      "address": "Grain Market, Bihar Sharif, Nalanda",
+      "map_query": "Grain Market Bihar Sharif"
+    },
+    {
+      "state": "Bihar",
+      "district": "Gaya",
+      "crop": "Wheat",
+      "agency": "BSFC",
+      "centre_name": "Gaya Procurement Centre",
+      "address": "Gaya Grain Market, Gaya, Bihar",
+      "map_query": "Gaya Grain Market"
+    },
+    {
+      "state": "Bihar",
+      "district": "Muzaffarpur",
+      "crop": "Wheat / Paddy",
+      "agency": "FCI / State Agency",
+      "centre_name": "Muzaffarpur Procurement Centre",
+      "address": "New Grain Market, Muzaffarpur, Bihar",
+      "map_query": "New Grain Market Muzaffarpur"
+    },
+    {
+      "state": "Bihar",
+      "district": "Muzaffarpur",
+      "crop": "Wheat / Paddy",
+      "agency": "FCI / State Agency",
+      "centre_name": "Muzaffarpur Procurement Centre",
+      "address": "New Grain Market, Muzaffarpur, Bihar",
+      "map_query": "New Grain Market Muzaffarpur"
+    },
+    {
+      "state": "Bihar",
+      "district": "Muzaffarpur",
+      "crop": "Wheat / Paddy",
+      "agency": "FCI / State Agency",
+      "centre_name": "Muzaffarpur Procurement Centre",
+      "address": "New Grain Market, Muzaffarpur, Bihar",
+      "map_query": "New Grain Market Muzaffarpur"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Muzaffarpur",
+      "crop": "Wheat / Paddy",
+      "agency": "FCI / State Agency",
+      "centre_name": "Muzaffarpur Procurement Centre",
+      "address": "New Grain Market, Muzaffarpur, Bihar",
+      "map_query": "New Grain Market Muzaffarpur"
+    },
+    {
+      "state": "Uttar Pradeshr",
+      "district": "Muzaffarpur",
+      "crop": "Wheat / Paddy",
+      "agency": "FCI / State Agency",
+      "centre_name": "Muzaffarpur Procurement Centre",
+      "address": "New Grain Market, Muzaffarpur, Bihar",
+      "map_query": "New Grain Market Muzaffarpur"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Muzaffarpur",
+      "crop": "Wheat / Paddy",
+      "agency": "FCI / State Agency",
+      "centre_name": "Muzaffarpur Procurement Centre",
+      "address": "New Grain Market, Muzaffarpur, Bihar",
+      "map_query": "New Grain Market Muzaffarpur"
+    }
+  ]
+}

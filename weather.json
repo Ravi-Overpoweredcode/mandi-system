@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "image": "image/rainfallimage.jpg",
+    "title": "Crop Suitability",
+    "description": "Temperature and humidity are suitable for wheat and gram harvesting.",
+    "badgeText": "Favorable",
+    "badgeColor": "emerald"
+  },
+  {
+    "id": 2,
+    "image": "image/rainfallimage.jpg",
+    "title": "Rain Alert",
+    "description": "No rainfall expected in the next 48 hours for this district.",
+    "badgeText": "Low Risk",
+    "badgeColor": "sky"
+  },
+  {
+    "id": 3,
+    "image": "image/rainfallimage.jpg",
+    "title": "Transport Advisory",
+    "description": "Clear weather may increase mandi arrivals and ease transport.",
+    "badgeText": "Normal",
+    "badgeColor": "blue"
+  },
+  {
+    "id": 4,
+    "image": "image/raininjungle.jpg",
+    "title": "Market Impact",
+    "description": "Stable weather likely to keep vegetable prices steady.",
+    "badgeText": "Stable Prices",
+    "badgeColor": "green"
+  },
+  {
+    "id": 5,
+    "image": "image/raininjungle.jpg",
+    "title": "Market Impact",
+    "description": "Stable weather likely to keep vegetable prices steady.",
+    "badgeText": "Stable Prices",
+    "badgeColor": "green"
+  },
+  {
+    "id": 6,
+    "image": "image/raininjungle.jpg",
+    "title": "Market Impact",
+    "description": "Stable weather likely to keep vegetable prices steady.",
+    "badgeText": "Stable Prices",
+    "badgeColor": "green"
+  },
+  {
+    "id": 7,
+    "image": "image/raininjungle.jpg",
+    "title": "Market Impact",
+    "description": "Stable weather likely to keep vegetable prices steady.",
+    "badgeText": "Stable Prices",
+    "badgeColor": "green"
+  },
+  {
+    "id": 8,
+    "image": "image/raininjungle.jpg",
+    "title": "Market Impact",
+    "description": "Stable weather likely to keep vegetable prices steady.",
+    "badgeText": "Stable Prices",
+    "badgeColor": "green"
+  }
+]
